@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "tacz:ammo_box"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:ammo_crate"
+  }
+}

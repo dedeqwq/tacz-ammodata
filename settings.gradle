@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        // 只用可靠的源。⚠️ 不要加 bmclapi2 之类的 Forge 镜像 ——
+        // 它返回的 pom 有时是坏的，Gradle 会反复重试卡死（实测：CPU 完全不动，
+        // 日志停在 "The daemon has started executing the build."）。
+        maven { name = 'AliyunPublic'; url = 'https://maven.aliyun.com/repository/public' }
+        maven { name = 'AliyunGradlePlugin'; url = 'https://maven.aliyun.com/repository/gradle-plugin' }
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}

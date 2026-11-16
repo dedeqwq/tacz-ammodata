@@ -1,0 +1,47 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# 本地依赖 jar（TaCZ / Cloth Config），绝对不要提交
+# 这些是别人模组的产物，且体积巨大
+libs/
+
+# 构建产物与运行时目录
+build/
+run/
+run-data/
+.gradle/
+
+# IDE / 系统
+*.bak
+*.bak-*
+.DS_Store
+Thumbs.db
+
+
+# 本机专用脚本（含硬编码路径）
+build.cmd
+chk2.py
+配方一键生成.cmd

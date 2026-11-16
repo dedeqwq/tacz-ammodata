@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SNS",
+    "NCN",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:crate_upgrade_netherite"
+  }
+}

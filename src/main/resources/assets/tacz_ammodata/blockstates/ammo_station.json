@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tacz_ammodata:block/ammo_station"
+    },
+    "facing=east": {
+      "model": "tacz_ammodata:block/ammo_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tacz_ammodata:block/ammo_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tacz_ammodata:block/ammo_station",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "PCP",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "tacz_ammodata:ammo_crate"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:ammo_crate_advanced"
+  }
+}

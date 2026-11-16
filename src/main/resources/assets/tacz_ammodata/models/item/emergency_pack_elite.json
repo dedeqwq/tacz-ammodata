@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tacz_ammodata:item/emergency_pack_elite_empty"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tacz_ammodata:filled": 1.0
+      },
+      "model": "tacz_ammodata:item/emergency_pack_elite_filled"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:iron_block" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:gunpowder" }
+  ],
+  "result": {
+    "item": "tacz_ammodata:ammo_material",
+    "count": 4
+  }
+}

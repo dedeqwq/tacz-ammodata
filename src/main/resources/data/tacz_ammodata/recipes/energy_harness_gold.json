@@ -1,0 +1,79 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "RGR",
+          "GBG",
+          "LGL"
+        ],
+        "key": {
+          "R": {
+            "item": "minecraft:redstone_block"
+          },
+          "G": {
+            "item": "minecraft:gold_block"
+          },
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_iron"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_gold",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "RAR",
+          "ABA",
+          "LGL"
+        ],
+        "key": {
+          "R": {
+            "item": "minecraft:redstone_block"
+          },
+          "A": {
+            "item": "mekanism:alloy_reinforced"
+          },
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "G": {
+            "item": "minecraft:gold_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_iron"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_gold",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

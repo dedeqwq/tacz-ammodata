@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ITI",
+    "ILI",
+    "IBI"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:emergency_pack_elite",
+    "count": 1
+  }
+}

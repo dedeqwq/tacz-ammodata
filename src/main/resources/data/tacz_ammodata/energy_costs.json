@@ -1,0 +1,12 @@
+{
+  "trisdyna:emx_b1": 100000,
+  "trisdyna:emx_b2": 200000,
+  "trisdyna:emx_b3": 500000,
+  "trisdyna:emx_b6": 10000000,
+  "fmic:battery1": 500000,
+  "fmic:battery2": 350000,
+  "fmic:battery3": 150000,
+  "fmic:nano_t1": 600000,
+  "fmic:nano_t2": 120000,
+  "fmic:nano_t3": 400000
+}

@@ -1,0 +1,70 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "NNN",
+          "NBN",
+          "NNN"
+        ],
+        "key": {
+          "N": {
+            "item": "minecraft:netherite_ingot"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_diamond"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_netherite",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "ROR",
+          "NBN",
+          "ROR"
+        ],
+        "key": {
+          "R": {
+            "item": "mekanism:ingot_refined_obsidian"
+          },
+          "O": {
+            "item": "mekanism:enriched_refined_obsidian"
+          },
+          "N": {
+            "item": "minecraft:netherite_ingot"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_diamond"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_netherite",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

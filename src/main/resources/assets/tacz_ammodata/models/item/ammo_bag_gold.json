@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tacz_ammodata:item/ammo_bag_gold"
+  }
+}

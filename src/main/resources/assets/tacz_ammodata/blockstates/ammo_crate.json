@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=north,part=front": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=north,part=back": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=north,part=sw": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=north,part=nw": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=north,part=se": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=north,part=ne": {
+      "model": "tacz_ammodata:block/crate_basic"
+    },
+    "facing=east,part=front": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=east,part=back": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=east,part=sw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=east,part=nw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=east,part=se": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=east,part=ne": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 90
+    },
+    "facing=south,part=front": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=south,part=back": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=south,part=sw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=south,part=nw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=south,part=se": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=south,part=ne": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 180
+    },
+    "facing=west,part=front": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    },
+    "facing=west,part=back": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    },
+    "facing=west,part=sw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    },
+    "facing=west,part=nw": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    },
+    "facing=west,part=se": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    },
+    "facing=west,part=ne": {
+      "model": "tacz_ammodata:block/crate_basic",
+      "y": 270
+    }
+  }
+}

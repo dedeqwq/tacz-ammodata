@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DTI",
+    "DCI",
+    "DBI"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "tacz_ammodata:ammo_crate_advanced"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "tacz:ammo_box",
+      "nbt": "{Level:2}"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:ammo_crate_elite"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "IRI",
+          "RBR",
+          "IRI"
+        ],
+        "key": {
+          "I": {
+            "item": "minecraft:iron_block"
+          },
+          "R": {
+            "item": "minecraft:redstone_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_base"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_iron",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "ARA",
+          "RBR",
+          "ARA"
+        ],
+        "key": {
+          "A": {
+            "item": "mekanism:alloy_infused"
+          },
+          "R": {
+            "item": "minecraft:redstone_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_base"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_iron",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

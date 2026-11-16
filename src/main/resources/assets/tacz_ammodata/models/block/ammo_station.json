@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "tacz_ammodata:block/ammo_station_side",
+    "down": "tacz_ammodata:block/ammo_station_bottom",
+    "up": "tacz_ammodata:block/ammo_station_top",
+    "north": "tacz_ammodata:block/ammo_station_front",
+    "south": "tacz_ammodata:block/ammo_station_back",
+    "east": "tacz_ammodata:block/ammo_station_side",
+    "west": "tacz_ammodata:block/ammo_station_side"
+  }
+}

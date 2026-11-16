@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=north,part=front": {
+      "model": "tacz_ammodata:block/crate_elite_sw"
+    },
+    "facing=north,part=back": {
+      "model": "tacz_ammodata:block/crate_elite_sw"
+    },
+    "facing=north,part=sw": {
+      "model": "tacz_ammodata:block/crate_elite_sw"
+    },
+    "facing=north,part=nw": {
+      "model": "tacz_ammodata:block/crate_elite_nw"
+    },
+    "facing=north,part=se": {
+      "model": "tacz_ammodata:block/crate_elite_se"
+    },
+    "facing=north,part=ne": {
+      "model": "tacz_ammodata:block/crate_elite_ne"
+    },
+    "facing=east,part=front": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 90
+    },
+    "facing=east,part=back": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 90
+    },
+    "facing=east,part=sw": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 90
+    },
+    "facing=east,part=nw": {
+      "model": "tacz_ammodata:block/crate_elite_nw",
+      "y": 90
+    },
+    "facing=east,part=se": {
+      "model": "tacz_ammodata:block/crate_elite_se",
+      "y": 90
+    },
+    "facing=east,part=ne": {
+      "model": "tacz_ammodata:block/crate_elite_ne",
+      "y": 90
+    },
+    "facing=south,part=front": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 180
+    },
+    "facing=south,part=back": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 180
+    },
+    "facing=south,part=sw": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 180
+    },
+    "facing=south,part=nw": {
+      "model": "tacz_ammodata:block/crate_elite_nw",
+      "y": 180
+    },
+    "facing=south,part=se": {
+      "model": "tacz_ammodata:block/crate_elite_se",
+      "y": 180
+    },
+    "facing=south,part=ne": {
+      "model": "tacz_ammodata:block/crate_elite_ne",
+      "y": 180
+    },
+    "facing=west,part=front": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 270
+    },
+    "facing=west,part=back": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 270
+    },
+    "facing=west,part=sw": {
+      "model": "tacz_ammodata:block/crate_elite_sw",
+      "y": 270
+    },
+    "facing=west,part=nw": {
+      "model": "tacz_ammodata:block/crate_elite_nw",
+      "y": 270
+    },
+    "facing=west,part=se": {
+      "model": "tacz_ammodata:block/crate_elite_se",
+      "y": 270
+    },
+    "facing=west,part=ne": {
+      "model": "tacz_ammodata:block/crate_elite_ne",
+      "y": 270
+    }
+  }
+}

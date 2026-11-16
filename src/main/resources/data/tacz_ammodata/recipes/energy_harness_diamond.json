@@ -1,0 +1,79 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "ADA",
+          "DBD",
+          "LDL"
+        ],
+        "key": {
+          "A": {
+            "item": "minecraft:amethyst_block"
+          },
+          "D": {
+            "item": "minecraft:diamond_block"
+          },
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_gold"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_diamond",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "AOA",
+          "DBD",
+          "LDL"
+        ],
+        "key": {
+          "A": {
+            "item": "mekanism:alloy_atomic"
+          },
+          "O": {
+            "item": "mekanism:ingot_refined_obsidian"
+          },
+          "D": {
+            "item": "minecraft:diamond_block"
+          },
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "B": {
+            "item": "tacz_ammodata:energy_harness_gold"
+          }
+        },
+        "result": {
+          "item": "tacz_ammodata:energy_harness_diamond",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NLN",
+    "LDL",
+    "NLN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "tacz_ammodata:ammo_bag_netherite",
+    "count": 1
+  }
+}
