@@ -1,6 +1,6 @@
 # 德德的弹药系统 · Dede's Ammo System
 
-> 为 [TaCZ（永恒枪械工坊：零）](https://github.com/MCModderAnchor/TimelessAndClassicsZero) 打造的弹药容量、存储与后勤扩展。
+> 为 [TaCZ（永恒枪械工坊：零）](https://github.com/MCModderAnchor/TACZ) 打造的弹药容量、存储与后勤扩展。
 > An ammo capacity, storage and logistics expansion for TaCZ.
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-informational)
@@ -217,7 +217,7 @@ TaCZ 的枪很好用，但**弹药管理**这一块基本是空白的：
 
 ### 特别感谢
 
-- **[TaCZ / Timeless and Classics Zero](https://github.com/MCModderAnchor/TimelessAndClassicsZero)**
+- **[TaCZ / Timeless and Classics Zero](https://github.com/MCModderAnchor/TACZ)**
   —— 没有这个模组就没有这一切。感谢 TaCZ 团队提供了完整且开放的枪械 API。
 - **Minecraft Forge** —— 模组加载器
 - **Cloth Config** —— 配置界面

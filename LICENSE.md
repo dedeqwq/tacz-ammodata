@@ -34,7 +34,7 @@ Copyright (c) 2026 dede
 
 ## 关于 TaCZ 依赖
 
-本模组是 [TaCZ（永恒枪械工坊：零）](https://github.com/MCModderAnchor/TimelessAndClassicsZero)
+本模组是 [TaCZ（永恒枪械工坊：零）](https://github.com/MCModderAnchor/TACZ)
 的**附属模组**，通过其公开 API（`com.tacz.guns.api.*`）交互。
 
 **本模组不包含 TaCZ 的任何代码、资源或衍生作品。**
